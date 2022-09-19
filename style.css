@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body {
+    background: rgb(145,139,139);
+background: radial-gradient(circle, rgba(145,139,139,1) 0%, rgba(140,143,140,0.7571884984025559) 100%);
+}
+h3, form, .countdownDisplay {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+h3 {
+    text-transform: uppercase;
+}
+#choice {
+    background: transparent;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 1px grey;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: white;
+}
+.countdownDisplay {
+    color: aliceblue;
+    font-size: 4rem;
+    background: rgba(74, 74, 74, 0.4);
+    padding: 100px;
+    border-radius: 50px;
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 1px 2px 3px #6a6666
+}
